@@ -1,0 +1,28 @@
+.nav{
+  padding: 20px;
+  box-shadow: 1px 1px 1px #ccc;
+  margin-bottom: 20px;
+}
+.nav .box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .box .right, .nav .box .left{
+  display: inline-block;
+}
+.nav .box .left h1{
+  font-weight: 300;
+}
+.nav .box .right li{
+  display: inline-block;
+  margin-left: 30px;
+  transition: all 0.1s ease-in-out;
+}
+.nav .box .right li a{
+  color: rgb(12, 22, 132);
+  font-weight: 400;
+}
+.nav .box .right li:hover a{
+  color: rgb(38, 149, 136);
+}

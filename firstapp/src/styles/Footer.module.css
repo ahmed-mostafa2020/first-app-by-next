@@ -1,0 +1,13 @@
+.footer{
+  background-color: #fafafa;
+  padding: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 67vh;
+}
+.footer h1{
+  font-weight: 300;
+}
