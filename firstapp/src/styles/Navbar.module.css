@@ -11,8 +11,9 @@
 .nav .box .right, .nav .box .left{
   display: inline-block;
 }
-.nav .box .left h1{
+.nav .box .left a h1{
   font-weight: 300;
+  color: rgb(12, 22, 132);
 }
 .nav .box .right li{
   display: inline-block;
@@ -22,6 +23,7 @@
 .nav .box .right li a{
   color: rgb(12, 22, 132);
   font-weight: 400;
+  font-size: 20px;
 }
 .nav .box .right li:hover a{
   color: rgb(38, 149, 136);

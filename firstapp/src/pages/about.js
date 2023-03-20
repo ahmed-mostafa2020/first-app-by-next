@@ -5,12 +5,15 @@ export default function about() {
     <>
     <Head>
       <title>
-        About page Basic E-commerce App
+        About | Basic E-commerce App
       </title>
     </Head>
 
-      <h1>about page</h1>
-      
+    <section>
+      <div className='container'>
+        <h1 className='py-5 text-center'>About page</h1>
+      </div>
+    </section>
     </>
   )
 }

@@ -5,12 +5,15 @@ export default function cart() {
     <>
     <Head>
       <title>
-        Cart page Basic E-commerce App
+        Cart | Basic E-commerce App
       </title>
     </Head>
 
-      <h1>cart page</h1>
-      
+    <section>
+      <div className='container'>
+        <h1 className='py-5 text-center'>Cart page</h1>
+      </div>
+    </section>
     </>
   )
 }

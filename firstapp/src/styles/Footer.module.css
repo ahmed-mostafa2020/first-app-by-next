@@ -6,7 +6,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 67vh;
+  margin-top: 20px;
+  box-shadow: 1px -5px 5px #cfcdcd;
 }
 .footer h1{
   font-weight: 300;
